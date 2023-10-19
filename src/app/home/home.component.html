@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="home.component.css">
+</head>
+
+<body>
+    <header class="bg-primary text-white py-3">
+        <div class="container">
+                <div class="col-md-6 text-center">
+                    <h1>Library Management System</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/GetBook" class="nav-link">Find all Books</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/create" class="nav-link">Add a Books</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/delete" class="nav-link">Delete book record</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/addUser" class="nav-link">Add a User</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/UpdateUser" class="nav-link">Update Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a routerLink="/getuser" class="nav-link">find user record</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <main class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 style="padding: 140px;">Welcome of Library</h1>
+                </div>    
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Library Information</h4>
+                    <p>123 Library Street, City, Country</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@library.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Social Media</h4>
+                    <!-- Social media links here -->
+                </div>
+                <div class="col-md-4">
+                    <h4>Help and Support</h4>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
